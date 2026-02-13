@@ -257,7 +257,7 @@ Send money like sending a text. Type a MoniTag, enter an amount, confirm with PI
 
 - **Gasless transfers** — Sign a message, we handle the rest
 - **QR payments** — Scan any MoniPay QR to pay instantly
-- **Fund via exchange** — Copy your address, send USDC/USDT from Binance/Bybit
+- **Fund via exchange** — Copy your address, send USDC/USDT from Binance/Bybit (The last time you will ever interact with an unreadable hexadecimal wallet address)
 - **Transaction receipts** — Full history with on-chain verification links
 - **Multi-chain support** — Switch between Base (USDC) and BSC (USDT) in settings
 
@@ -311,35 +311,6 @@ Full payment gateway with hosted checkout, webhooks, and embeddable links.
 
 ---
 
-## Repository Structure
-
-```
-monipay/
-├── src/                          # React frontend (PWA)
-│   ├── components/               # UI components
-│   ├── contexts/                 # MoniTag global state
-│   ├── hooks/                    # Custom React hooks
-│   ├── lib/                      # Wallet, crypto, contract ABIs
-│   └── pages/                    # Route pages
-├── supabase/
-│   └── functions/                # Edge Functions (Deno)
-│       ├── relay-payment/        # Gasless payment relayer
-│       ├── check-paytag/         # Auth & registration
-│       ├── monibot-ai/           # AI reply generation
-│       ├── monibot-chat/         # Admin AI chat
-│       └── ...                   # Products, orders, invoices, etc.
-├── contracts/                    # Solidity smart contracts
-│   ├── MoniPayRouter.sol         # Base payment router
-│   ├── MoniPayRouter.bsc.sol     # BSC payment router
-│   └── MoniBotRouter.sol         # Bot execution router
-├── worker-bot/                   # MoniBot Base worker (Node.js)
-├── worker-bot-bsc/               # MoniBot BSC worker (Node.js)
-├── vp-social/                    # MoniBot social reply agent (Base)
-└── reply-bot-bsc/                # MoniBot social reply agent (BSC)
-```
-
----
-
 ## Related Repositories
 
 | Repo | Description |
@@ -349,29 +320,6 @@ monipay/
 | [MoniBotRouter (Base)](https://basescan.org/address/0xBEE37c2f3Ce9a48D498FC0D47629a1E10356A516) | On-chain contract |
 | [MoniBotRouter (BSC)](https://bscscan.com/address/0x9EED3cF32690FfFaD0b8BB44CaC65B3B801c832E) | On-chain contract |
 
----
-
-## Getting Started
-
-```bash
-# Clone
-git clone https://github.com/Monipay/monipay.git
-cd monipay
-
-# Install
-npm install
-
-# Dev server
-npm run dev
-```
-
-**Environment:**
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_anon_key
-```
-
----
 
 ## Links
 
