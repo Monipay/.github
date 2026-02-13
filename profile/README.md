@@ -60,12 +60,13 @@ MoniPay is a **decentralized, terminal-free micropayment rail** on Base & BNB Sm
 Our architecture merges financial infrastructure with **Agentic Commerce** via MoniBot — an autonomous AI agent that verifies social identity and executes gasless, on-chain transactions directly on social timelines. By utilizing a custom EIP-712 Relayer and local AES-GCM encryption, we've abstracted gas fees and seed phrases into a seamless, neobank-like experience.
 
 - **No gas fees.** Ever. For anyone.
+- **No hexadecimal addresses.**  Monitag for all.
 - **No wallet extensions.** No MetaMask popups. No seed phrases shown.
 - **No blockchain literacy required.** Users see MoniTags, PINs, and instant confirmations.
 - **No hardware terminals.** Any smartphone is a POS.
 - **1% flat fee.** That's it. No hidden charges, no tiered pricing, no monthly subscriptions.
 
-Built as a Progressive Web App with native mobile deployment via CapacitorJS, MoniPay works everywhere — from a street vendor's phone in Lagos to a checkout page in London.
+MoniPay works everywhere — from a street vendor's phone in Dubai to a checkout page in Bali.
 
 ---
 
@@ -122,7 +123,7 @@ Because settlement is on-chain and keys are local, **if our servers disappear, t
 
 > *"What if money didn't wait for you to move it?"*
 
-**MoniBot** ([@monibot](https://x.com/monibot)) is not a chatbot with a wallet. It is a **financial agent** — an autonomous entity that lives on Twitter, thinks with Gemini, and executes on-chain. It represents a fundamentally new category: **Agentic Commerce**, where AI doesn't just assist transactions but *initiates, evaluates, and completes them* without human intermediation.
+**MoniBot** ([@monibot](https://x.com/monibot)) is not a chatbot with a wallet. It is a **financial agent** — an autonomous entity that lives on Twitter and Farcaster, thinks with Gemini, and executes on-chain. It represents a fundamentally new category: **Agentic Commerce**, where AI doesn't just assist transactions but *initiates, evaluates, and completes them* without human intermediation.
 
 This is the **Request → Intent → Execution** loop:
 
@@ -173,7 +174,7 @@ MoniBot operates as **two isolated, resilient services** — a deliberate archit
   └─────────────────────────────────────┘
 ```
 
-Each chain (Base and BSC) runs its own isolated worker and reply service on Railway — total redundancy across networks. The bot services operate in **Silent Mode**, logging transactions to a shared Supabase ledger for the social agents to process asynchronously.
+Each chain (Base and BSC) runs its own isolated worker and reply service on Railway — total redundancy across networks. The bot services operate in **Silent Mode**, logging transactions to a shared database ledger for the social agents to process asynchronously.
 
 ### Agent Intelligence: AI-Powered Grant Evaluation
 
@@ -289,7 +290,7 @@ Full payment gateway with hosted checkout, webhooks, and embeddable links.
 |-------|-----------|
 | **Frontend** | React 18 · TypeScript · Vite · TailwindCSS · Framer Motion · Radix UI · TanStack Query |
 | **Blockchain** | Base · BNB Smart Chain · USDC/USDT · viem · wagmi · EIP-712 · ERC-2771 Meta-Transactions |
-| **Backend** | Supabase (PostgreSQL + Edge Functions + RLS) · Deno Runtime |
+| **Backend** | Database (PostgreSQL + Edge Functions + RLS) · Deno Runtime |
 | **Mobile** | CapacitorJS · PWA · WebAuthn Biometrics |
 | **AI** | Gemini 2.0 Flash · Context-aware social reply generation · Campaign grant evaluation · Admin operational chat |
 | **Bot Infrastructure** | Railway · Node.js · twitter-api-v2 · Isolated multi-chain services |
@@ -374,7 +375,7 @@ VITE_SUPABASE_ANON_KEY=your_anon_key
 
 ## Links
 
-- 🌐 **App**: [monipay.lovable.app](https://monipay.lovable.app)
+- 🌐 **App**: [Monipay](https://monipay.xyz)
 - 🐦 **MoniPay**: [@monipay_xyz](https://x.com/monipay_xyz)
 - 🤖 **MoniBot**: [@monibot](https://x.com/monibot)
 - 📖 **Technical Docs**: [DOCUMENTATION.md](DOCUMENTATION.md)
@@ -382,7 +383,7 @@ VITE_SUPABASE_ANON_KEY=your_anon_key
 ---
 
 <p align="center">
-  <strong>Built with 💙 on Base & BNB Smart Chain</strong><br/>
+  <strong>Built with 💙💛  on Base & BNB Smart Chain</strong><br/>
   <em>"The best financial infrastructure is the one nobody notices."</em><br/><br/>
   <strong>MoniPay is a Hammer. Not a Dishwasher.</strong>
 </p>
