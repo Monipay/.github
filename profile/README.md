@@ -24,7 +24,7 @@
 >
 > *Today, we face what Dasha ([@0xdasha](https://x.com/0xdasha)) calls "compliance drift." The industry has become enamored with institutional adoption, trading the cypherpunk ethos for the approval of global finance. We are seeing a pivot where Ethereum is increasingly viewed as a settlement layer for regulated securities, where wallets are gated, and history is surveilled.*
 >
-> *I have watched many builders accept this. They argue that for payments to work at scale, we must embrace custody, KYC, and proprietary hardware. They suggest that a truly decentralized Point-of-Sale is impossible in the Global South.*
+> *I have watched many builders accept this. They argue that for payments to work at scale, we must embrace custody, KYC, and proprietary hardware. They suggest that a truly decentralized payments solution is impossible to scale.*
 >
 > *I disagree.*
 >
