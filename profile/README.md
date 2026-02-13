@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://monipay.lovable.app">Live App</a> ·
+  <a href="https://monipay.xyz">Live App</a> ·
   <a href="https://x.com/monipay_xyz">@monipay_xyz</a> ·
   <a href="https://x.com/monibot">@monibot</a> ·
   <a href="DOCUMENTATION.md">Technical Docs</a>
