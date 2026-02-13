@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/monipay-m-logo.png" alt="MoniPay Logo" width="80" />
+  <img src="https://vdaeojxonqmzejwiioaq.supabase.co/storage/v1/object/public/monipay/monipay-m-logo.png" alt="MoniPay Logo" width="80" />
 </p>
 
 <h1 align="center">MoniPay</h1>
