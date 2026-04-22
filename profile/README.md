@@ -28,7 +28,7 @@
 >
 > *I disagree.*
 >
-> *I am building MoniPay because I believe the original vision — **the tool you own, not the service you rent** — is the only one worth building.*
+> *I am building MoniPay because I believe the original vision **the tool you own, not the service you rent** is the only one worth building.*
 
 ---
 
